@@ -12,9 +12,9 @@ import {
 interface RNOTPInputProps {
     length?: number;
     onCompleteFn: (otp: string) => void
-    inputStyle: StyleProp<TextStyle>
-    containerStyle: StyleProp<ViewStyle>
-    focusStyle: StyleProp<TextStyle>
+    inputStyle?: StyleProp<TextStyle>
+    containerStyle?: StyleProp<ViewStyle>
+    focusStyle?: StyleProp<TextStyle>
 }
 
 /**
@@ -116,7 +116,6 @@ const RNOTPInput: React.FC<RNOTPInputProps> = (props) => {
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
-        gap: 10,
         justifyContent: 'space-between',
     },
     input: {
