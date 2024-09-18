@@ -1,0 +1,7 @@
+node_modules
+src
+lib/ # If you're using a dist folder, ensure this is excluded if already built.
+tsconfig.json
+.gitignore
+*.log
+README.md # Optional: Exclude if you don't want it published (usually it is included).
