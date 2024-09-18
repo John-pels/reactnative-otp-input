@@ -22,13 +22,19 @@ npx expo install RN-otp-input
 
 ### Props
 
-| Props          | Type                 | Default                                                 | Required | Description                                             |
-| -------------- | -------------------- | ------------------------------------------------------- | -------- | ------------------------------------------------------- |
-| Length         | Number               | 4                                                       | No       | The number of OTP input fields, default is 4            |
-| onCompleteFn   | Function             | \_                                                      | Yes      | Callback function called when all OTP fields are filled |
-| inputStyle     | StyleProp<TextStyle> | width,height,borderWidth,borderColor,textAlign,fontSize | No       | Custom styles for individual input fields               |
-| containerStyle | StyleProp            | flexDirection,justifyContent                            | No       | Custom styles for the container of input fields         |
-| focusStyle     | StyleProp            | -                                                       | No       | The onFocus styles for the otp inputs                   |
+<style>
+table colgroup col {
+    width: auto !important;
+}
+</style>
+
+| Props          | Type                 | Default                                                      | Required | Description                                             |
+| -------------- | -------------------- | ------------------------------------------------------------ | -------- | ------------------------------------------------------- |
+| Length         | Number               | 4                                                            | No       | The number of OTP input fields, default is 4            |
+| onCompleteFn   | Function             | \_                                                           | Yes      | Callback function called when all OTP fields are filled |
+| inputStyle     | StyleProp<TextStyle> | width, height, borderWidth, borderColor, textAlign, fontSize | No       | Custom styles for individual input fields               |
+| containerStyle | StyleProp            | flexDirection, justifyContent                                | No       | Custom styles for the container of input fields         |
+| focusStyle     | StyleProp            | \_                                                           | No       | The onFocus styles for the otp inputs                   |
 
 ## Features
 
