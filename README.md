@@ -22,12 +22,6 @@ npx expo install RN-otp-input
 
 ### Props
 
-<style>
-table colgroup col {
-    width: auto !important;
-}
-</style>
-
 | Props          | Type                 | Default                                                      | Required | Description                                             |
 | -------------- | -------------------- | ------------------------------------------------------------ | -------- | ------------------------------------------------------- |
 | Length         | Number               | 4                                                            | No       | The number of OTP input fields, default is 4            |
