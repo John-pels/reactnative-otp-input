@@ -41,11 +41,11 @@ npx expo install RN-otp-input
 ### Basic Usage
 
 ```typescript
-const handhandleOTPComplete = (otp: string) => {
+const handleOTPComplete = (otp: string) => {
   console.log(otp);
 };
 
-<OTPInput length={5} onComplete={handleOTPComplete} />;
+<RNOTPInput length={5} onCompleteFn={handleOTPComplete} />;
 ```
 
 ### Customization Examples
@@ -53,9 +53,9 @@ const handhandleOTPComplete = (otp: string) => {
 #### Custom styles
 
 ```typescript
-<OTPInput
+<RNOTPInput
   length={6}
-  onComplete={handleOTPComplete}
+  onCompleteFn={handleOTPComplete}
   inputStyle={{
     borderColor: "blue",
     borderRadius: 10,
