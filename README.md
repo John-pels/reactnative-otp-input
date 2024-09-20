@@ -1,30 +1,30 @@
-# reactnative-otp-input &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/John-pels/reactnative-otp-input/blob/main/LICENSE)<img src="https://img.shields.io/github/stars/John-pels/reactnative-otp-input" alt="stars">[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)[![GitHub issues](https://img.shields.io/github/issues/John-pels/reactnative-otp-input.svg)](https://github.com/John-pels/reactnative-otp-input/issues)[![GitHub last commit](https://img.shields.io/github/last-commit/John-pels/reactnative-otp-input.svg)](https://github.com/John-pels/reactnative-otp-input/commits/main)[![npm version](https://badge.fury.io/js/reactnative-otp-input.svg)](https://npmjs.com/package/reactnative-otp-input)
+# react-native-snap-otp &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/John-pels/reactnative-otp-input/blob/main/LICENSE)<img src="https://img.shields.io/github/stars/John-pels/reactnative-otp-input" alt="stars">[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)[![GitHub issues](https://img.shields.io/github/issues/John-pels/reactnative-otp-input.svg)](https://github.com/John-pels/reactnative-otp-input/issues)[![GitHub last commit](https://img.shields.io/github/last-commit/John-pels/reactnative-otp-input.svg)](https://github.com/John-pels/reactnative-otp-input/commits/main)[![npm version](https://badge.fury.io/js/react-native-snap-otp.svg)](https://npmjs.com/package/react-native-snap-otp)
 
 A customizable and easy-to-use OTP (One-Time Password) input component for React Native applications.
 
 ### Installation
 
 ```bash
-npm install reactnative-otp-input
+npm install react-native-snap-otp
 ```
 
 or
 
 ```bash
-yarn add reactnative-otp-input
+yarn add react-native-snap-otp
 ```
 
 For Expo App,
 
 ```bash
-npx expo install reactnative-otp-input
+npx expo install react-native-snap-otp
 ```
 
 ### Basic Usage
 
 ```typescript
 import React from 'react';
-import RNOTPInput from 'reactnative-otp-input';
+import RNOTPInput from 'react-native-snap-otp';
 
 const [otp, setOtp] = React.useState('');
 

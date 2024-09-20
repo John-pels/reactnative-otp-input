@@ -1,5 +1,5 @@
 {
-  "name": "reactnative-otp-input",
+  "name": "react-native-snap-otp",
   "version": "1.0.0",
   "description": "A customizable and easy-to-use OTP (One-Time Password) input component for React Native applications.",
   "main": "lib/commonjs/index",
