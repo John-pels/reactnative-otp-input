@@ -41,8 +41,12 @@ npx expo install RN-otp-input
 ### Basic Usage
 
 ```typescript
+import React from 'react';
+
+const [otp, setOtp] = React.useState('');
+
 const handleOTPComplete = (otp: string) => {
-  console.log(otp);
+  setOtp(otp);
 };
 
 <RNOTPInput length={5} onCompleteFn={handleOTPComplete} />;
@@ -57,16 +61,16 @@ const handleOTPComplete = (otp: string) => {
   length={6}
   onCompleteFn={handleOTPComplete}
   inputStyle={{
-    borderColor: "blue",
+    borderColor: 'blue',
     borderRadius: 10,
     fontSize: 24,
   }}
   containerStyle={{
     marginTop: 20,
-    width: "80%",
+    width: '80%',
   }}
   focusStyle={{
-    borderColor: "red",
+    borderColor: 'red',
   }}
 />
 ```
