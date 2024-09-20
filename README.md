@@ -1,29 +1,30 @@
-# @john_pels/rn-otp-input &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/John-pels/RN-otp-input/blob/main/LICENSE)<img src="https://img.shields.io/github/stars/John-pels/RN-otp-input" alt="stars">[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)[![GitHub issues](https://img.shields.io/github/issues/John-pels/RN-otp-input.svg)](https://github.com/John-pels/RN-otp-input)[![GitHub last commit](https://img.shields.io/github/last-commit/John-pels/RN-otp-input.svg)](https://github.com/John-pels/RN-otp-input/commits/main)
+# reactnative-otp-input &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/John-pels/reactnative-otp-input/blob/main/LICENSE)<img src="https://img.shields.io/github/stars/John-pels/reactnative-otp-input" alt="stars">[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)[![GitHub issues](https://img.shields.io/github/issues/John-pels/reactnative-otp-input.svg)](https://github.com/John-pels/reactnative-otp-input/issues)[![GitHub last commit](https://img.shields.io/github/last-commit/John-pels/reactnative-otp-input.svg)](https://github.com/John-pels/reactnative-otp-input/commits/main)[![npm version](https://badge.fury.io/js/reactnative-otp-input.svg)](https://npmjs.com/package/reactnative-otp-input)
 
 A customizable and easy-to-use OTP (One-Time Password) input component for React Native applications.
 
 ### Installation
 
 ```bash
-npm install @john_pels/rn-otp-input
+npm install reactnative-otp-input
 ```
 
 or
 
 ```bash
-yarn add @john_pels/rn-otp-input
+yarn add reactnative-otp-input
 ```
 
 For Expo App,
 
 ```bash
-npx expo install @john_pels/rn-otp-input
+npx expo install reactnative-otp-input
 ```
 
 ### Basic Usage
 
 ```typescript
 import React from 'react';
+import RNOTPInput from 'reactnative-otp-input';
 
 const [otp, setOtp] = React.useState('');
 
