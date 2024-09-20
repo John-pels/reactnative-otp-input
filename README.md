@@ -1,17 +1,29 @@
-# react-native-snap-otp &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/John-pels/reactnative-otp-input/blob/main/LICENSE)<img src="https://img.shields.io/github/stars/John-pels/reactnative-otp-input" alt="stars">[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)[![GitHub issues](https://img.shields.io/github/issues/John-pels/reactnative-otp-input.svg)](https://github.com/John-pels/reactnative-otp-input/issues)[![GitHub last commit](https://img.shields.io/github/last-commit/John-pels/reactnative-otp-input.svg)](https://github.com/John-pels/reactnative-otp-input/commits/main)[![npm version](https://badge.fury.io/js/react-native-snap-otp.svg)](https://npmjs.com/package/react-native-snap-otp)
+# react-native-snap-otp &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/John-pels/reactnative-otp-input/blob/main/LICENSE)<img src="https://img.shields.io/github/stars/John-pels/reactnative-otp-input" alt="stars">[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)[![GitHub issues](https://img.shields.io/github/issues/John-pels/reactnative-otp-input.svg)](https://github.com/John-pels/reactnative-otp-input)[![GitHub last commit](https://img.shields.io/github/last-commit/John-pels/reactnative-otp-input.svg)](https://github.com/John-pels/reactnative-otp-input/commits/main)[![npm version](https://badge.fury.io/js/react-native-snap-otp.svg)](https://img.shields.io/npm/dm/react-native-snap-otp.svg)
 
 A customizable and easy-to-use OTP (One-Time Password) input component for React Native applications.
 
 ### Installation
 
+For Reavt-native CLI,
+
 ```bash
 npm install react-native-snap-otp
+```
+
+```bash
+cd ios
+pod install
 ```
 
 or
 
 ```bash
 yarn add react-native-snap-otp
+```
+
+```bash
+cd ios
+pod install
 ```
 
 For Expo App,
