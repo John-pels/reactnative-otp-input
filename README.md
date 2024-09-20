@@ -5,19 +5,19 @@ A customizable and easy-to-use OTP (One-Time Password) input component for React
 ### Installation
 
 ```bash
-npm install RN-otp-input
+npm install reactnative-otp-input
 ```
 
 or
 
 ```bash
-yarn add RN-otp-input
+yarn add reactnative-otp-input
 ```
 
 For Expo App,
 
 ```bash
-npx expo install RN-otp-input
+npx expo install reactnative-otp-input
 ```
 
 ### Props
