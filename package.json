@@ -1,6 +1,6 @@
 {
-  "name": "reactnative-otp-input",
-  "version": "1.0.0",
+  "name": "@john_pels/rn-otp-input",
+  "version": "1.0.2",
   "description": "A customizable and easy-to-use OTP (One-Time Password) input component for React Native applications.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -38,7 +38,16 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "expo",
+    "react",
+    "otp",
+    "input",
+    "otp-input",
+    "one-time-password",
+    "one-time-password-input",
+    "one-time-password-input-react-native",
+    "mobile-development"
   ],
   "author": "John Ajeigbe <ajeigbejohnolu@gmail.com> (https://github.com/John-pels)",
   "license": "MIT",
