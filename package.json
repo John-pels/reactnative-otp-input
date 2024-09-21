@@ -7,6 +7,10 @@
   "types": "lib/typescript/index.d.ts",
   "react-native": "src/index",
   "source": "src/index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John-pels/reactnative-otp-input.git"
+  },
   "files": [
     "src",
     "lib",

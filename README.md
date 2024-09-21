@@ -4,7 +4,7 @@ A customizable and easy-to-use OTP (One-Time Password) input component for React
 
 ### Installation
 
-For Reavt-native CLI,
+For React-native CLI,
 
 ```bash
 npm install react-native-snap-otp
