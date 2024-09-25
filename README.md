@@ -65,6 +65,7 @@ const handleOTPComplete = (otp: string) => {
   }}
   focusStyle={{
     borderColor: 'red',
+    borderWidth: 1,
   }}
 />
 ```
