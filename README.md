@@ -56,7 +56,6 @@ const handleOTPComplete = (otp: string) => {
   length={6}
   onCompleteFn={handleOTPComplete}
   inputStyle={{
-    borderColor: 'blue',
     borderRadius: 10,
     fontSize: 24,
   }}

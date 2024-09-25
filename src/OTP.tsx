@@ -123,7 +123,6 @@ const styles = StyleSheet.create({
         height: 50,
         borderWidth: 1,
         borderRadius: 8,
-        borderColor: '#000',
         textAlign: 'center',
         fontSize: 20,
     },
